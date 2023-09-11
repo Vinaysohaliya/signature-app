@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#signatureCanvas {
+  border: 2px solid #333;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+
+.action-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Color picker style */
+input[type="color"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 200px; /* Limit the maximum width */
+  margin-top: 10px;
+}
+
+/* Line thickness input style */
+input[type="range"] {
+  width: 100%;
+  max-width: 200px; /* Limit the maximum width */
+  margin-top: 10px;
+}
+
+/* Style for labels if needed */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
