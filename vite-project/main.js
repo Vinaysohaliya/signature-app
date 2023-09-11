@@ -55,15 +55,14 @@ var canvas = document.getElementById('signatureCanvas');
             drawing = false;
         });
 
-        // Clear the canvas
+   
         document.getElementById('clearButton').addEventListener('click', () => {
             context.clearRect(0, 0, canvas.width, canvas.height);
         });
 
-        // Save the signature as an image
+       
         document.getElementById('saveButton').addEventListener('click', () => {
             var image = canvas.toDataURL("image/png");
-            // You can now send 'image' to your server or use it as needed.
-            // Example: sendImageToServer(image);
+
         });
 
